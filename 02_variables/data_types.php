@@ -46,3 +46,26 @@
 	#var_dump function dumps information about a 
 	#variable.
 	echo var_dump($my_list);
+	echo "\n";
+	
+	#Example constants.
+	#->A constant, as its name suggests, is a value 
+	#that cannot change during the execution of the 
+	#script.
+	echo "Constants."
+	
+	#Define a constant using the keyword const.
+	#The convention is to use UPPERCASE letters for 
+	#constant names.
+	const PI = 3.14159;
+	
+	#Unlike variables, a constant is not prepended 
+	#with a $
+	echo "Pi: " . PI;
+	echo "\n";
+	
+	#Define a constant using definde().
+	
+	define("PORT", '12345');
+	
+	echo "Port: " . PORT . "\n";
